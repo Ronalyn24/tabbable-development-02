@@ -1,4 +1,4 @@
 # tabbable-code
-the html tabbable is for a tutorial purpose wherein the students can explore the code and to understand how the propercode arrange properly.
-the languages i used here are: scss, html and jquery
+the html tabbable is for a tutorial purpose they can download this file for free wherein the students can explore the code and understand how the code arrange properly.
+
 
