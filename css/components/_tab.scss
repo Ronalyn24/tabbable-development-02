@@ -1,0 +1,44 @@
+
+.tab-content-wrapper {
+    display: none;
+
+    .tab-inner-button {
+        padding: 50px 0 0;
+    }
+
+    &.current {
+        display: block;
+    }
+}
+
+ul.tab-header {
+    @include flex;
+    flex-direction: row;
+    @include justify-center;
+    padding: 45px 0 40px;
+
+    li {
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+
+        a {
+            padding: 15px 30px;
+            border-radius: 50px;
+            display: inline-block;
+            text-transform: uppercase;
+            font-weight: 600;
+            cursor: pointer;
+            @include transition-6s;
+        }
+        &.current {
+            a {
+                background: $primary-color-pink;
+                @include shadow-light-black;
+                color: $color-white;
+            }
+        }
+    }
+}
+
+

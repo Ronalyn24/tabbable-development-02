@@ -1,0 +1,29 @@
+.rc-sec-works {
+    background-color: $color-light-grey;
+    padding: 95px 0 120px;
+
+    .text-title {
+        max-width: 665px;
+        margin: 0 auto;
+    }
+    .tab-content {
+        padding: 0 0px 60px;
+        height: 100%;
+    }
+
+    .work-items {
+        @include flex-wrap;
+        @include justify-space-between;
+
+         li {
+            width: 33%;
+            padding: 15px;
+            overflow: hidden;
+
+            img {
+                @include image-fit-center;
+                border-radius: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+header#rc-header {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+
+    .rc-container {
+        width: $general-width;
+        max-width: 1825px;
+        margin: 0 auto;
+        @include flex;
+        flex-direction: row;
+        @include justify-space-between;
+        @include  align-items-center;
+        padding: 35px 0;
+    }
+}
+
+ul.menu {
+    @include flex;
+    @include  justify-space-between;
+
+    li {
+        a {
+            color: $color-white;
+            text-decoration: none;
+            font-size: 1.8rem;
+            padding: 18px;
+            font-weight: 600;
+        }
+    }
+}

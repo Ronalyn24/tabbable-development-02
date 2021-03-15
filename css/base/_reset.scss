@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
+    @include  transition-6s;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $primary-font;
+}
+
+::selection {
+    background-color: $primary-color-pink;
+    color: $color-white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+// UTILITY
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+.row-item-middle {
+    @include align-items-center;
+}
+
+.color-dark-grey {
+    color: $color-dark-grey !important;
+}
+.text-white, .text-white p {
+    color: $color-white !important;
+}

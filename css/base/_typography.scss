@@ -1,0 +1,39 @@
+
+h1.headline-one {
+    font-size: 6rem;
+    line-height: 1.2em;
+}
+h4.headline-four {
+    font-size: 4rem;
+    font-family: $secondary-font;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    line-height: 1em;
+
+    &.sub-title {
+        font-size: 3.3rem;
+    }
+}
+
+h2.headline-two {
+    font-size: 5rem;
+    line-height: 1em;
+    padding-bottom: 15px;
+}
+
+p, li {
+    font-size: 1.5rem;
+    color: $color-black-1;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+a {
+    cursor: pointer;
+}
+
+
+h3 {
+    font-size: 3rem;
+    line-height: 1.3em;
+    padding: 10px 0;
+}
